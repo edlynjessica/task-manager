@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating bubbles -->
+  <div class="bubbles">
+    <span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="wrapper">
+    <!-- Top Card -->
+    <div class="top-card">
+      <h1>🌈 Task Manager</h1>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button id="addBtn">Add</button>
+      </div>
+    </div>
+
+    <!-- Task List -->
+    <ul class="task-list" id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
